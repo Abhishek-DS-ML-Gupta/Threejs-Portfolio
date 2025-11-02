@@ -16,6 +16,9 @@ import {
   nextjs,
   nodejs,
   pricewise,
+  react,
+  redux,
+  sass,
   snapgram,
   summiz,
   tailwindcss,
@@ -24,6 +27,11 @@ import {
 } from "@/assets/icons";
 
 export const skills = [
+  {
+    imageUrl: react,
+    name: "React",
+    type: "Frontend",
+  },
   {
     imageUrl: nextjs,
     name: "Next.js",
@@ -54,7 +62,11 @@ export const skills = [
     name: "MongoDB",
     type: "Database",
   },
-
+  {
+    imageUrl: redux,
+    name: "Redux",
+    type: "State Management",
+  },
   {
     imageUrl: git,
     name: "Git",
@@ -88,6 +100,11 @@ export const skills = [
   {
     imageUrl: css,
     name: "CSS",
+    type: "Frontend",
+  },
+  {
+    imageUrl: sass,
+    name: "Sass",
     type: "Frontend",
   },
 ];
@@ -145,6 +162,46 @@ export const experiences = [
       "Participated in team meetings and contributed to project planning.",
     ],
   },
+  // New entries added below
+  {
+    title: "Client Portfolio",
+    company_name: "Excellitude Pvt. Ltd.",
+    icon: meta,
+    iconBg: "#a2d2ff",
+    date: "2022 - 2023",
+    points: [
+      "Developed a comprehensive client portfolio showcasing company projects and services.",
+      "Implemented responsive design and interactive features for enhanced user experience.",
+      "Integrated with backend systems to display dynamic content.",
+      "Optimized for performance and SEO to increase online visibility.",
+    ],
+  },
+  {
+    title: "Award Portfolio",
+    company_name: "Excellitude Pvt. Ltd.",
+    icon: meta,
+    iconBg: "#a2d2ff",
+    date: "2023",
+    points: [
+      "Created an award portfolio to highlight company achievements and recognitions.",
+      "Designed visually appealing layouts with animations and transitions.",
+      "Implemented filtering and search functionality for easy navigation.",
+      "Ensured cross-browser compatibility and mobile responsiveness.",
+    ],
+  },
+  {
+    title: "Naaptol Restaurant Agent",
+    company_name: "Naaptol ",
+    icon: shopify,
+    iconBg: "#b7e4c7",
+    date: "2021 - 2022",
+    points: [
+      "Developed a restaurant recommendation agent using Python and machine learning algorithms.",
+      "Integrated with Naaptol's API to fetch restaurant data and user preferences.",
+      "Implemented collaborative filtering to provide personalized recommendations.",
+      "Built a user-friendly interface for browsing and rating restaurants.",
+    ],
+  },
 ];
 
 export const socialLinks = [
@@ -161,7 +218,7 @@ export const socialLinks = [
   {
     name: "LinkedIn",
     iconUrl: linkedin,
-    link: "https://www.linkedin.com/in/abhishek-gupta-fullstack",
+    link: "https://www.linkedin.com/in/abhishek-gupta-0442132b6/",
   },
 ];
 
@@ -190,28 +247,30 @@ export const projects = [
       "Collaborative task management application with real-time updates and team collaboration features",
     link: "https://github.com/Abhishek-DS-ML-Gupta",
   },
+
+  // New projects added below
   {
-    iconUrl: snapgram,
-    theme: "btn-back-pink",
-    name: "Social Media Analytics",
+    iconUrl: estate,
+    theme: "btn-back-blue",
+    name: "Client Portfolio",
     description:
-      "Analytics tool for social media managers to track engagement and performance across platforms",
+      "Comprehensive portfolio showcasing client projects and services for Excellitude Pvt. Ltd.",
+    link: "https://github.com/Abhishek-DS-ML-Gupta",
+  },
+  {
+    iconUrl: summiz,
+    theme: "btn-back-green",
+    name: "Award Portfolio",
+    description:
+      "Interactive portfolio highlighting company achievements and recognitions for Excellitude Pvt. Ltd.",
     link: "https://github.com/Abhishek-DS-ML-Gupta",
   },
   {
     iconUrl: car,
     theme: "btn-back-black",
-    name: "Ride Sharing App",
+    name: "Naaptol Restaurant Agent",
     description:
-      "Ride-sharing application with real-time tracking, payment processing, and driver management",
-    link: "https://github.com/Abhishek-DS-ML-Gupta",
-  },
-  {
-    iconUrl: pricewise,
-    theme: "btn-back-yellow",
-    name: "Finance Tracker",
-    description:
-      "Personal finance management application with budgeting tools and expense tracking",
+      "Python-based restaurant recommendation system with machine learning algorithms for Naaptol.com",
     link: "https://github.com/Abhishek-DS-ML-Gupta",
   },
 ];
