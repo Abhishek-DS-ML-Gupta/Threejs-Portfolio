@@ -62,7 +62,7 @@ export const SkillsSection = () => {
     );
 
     // Add hover animations to skill cards
-    skillRefs.current.forEach((skill, i) => {
+    skillRefs.current.forEach((skill) => {
       if (!skill) return;
       
       const front = skill.querySelector('.btn-front');
